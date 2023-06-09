@@ -52,8 +52,8 @@ public class UResource {
      */
     public UResource(String name, String instance, String message) {
         Objects.requireNonNull(name, " Resource must have a name.");
-        this.name = name;
         this.instance = instance;
+        this.name = name;
         this.message = message;
     }
 
